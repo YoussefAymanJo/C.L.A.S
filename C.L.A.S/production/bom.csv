@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"FAN1, HEATLAMP1, HUMIDIFER1, PELTIER1, PELTIER2, WATERPUMP1",MOSFET_KIT,6,~,
+J1,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",1,Screw_Terminal_01x02,
+"J3, J4, J5",PinHeader_1x03_P2.54mm_Vertical,3,Conn_01x03_Pin,
+U1,XCVR_ESP32-S3-DEVKITC-1-N8R2,1,ESP32-S3-DEVKITC-1-N8R2,

@@ -7394,7 +7394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:MOSFET_KIT"
+		(property "Footprint" "mosfet:MOSFET_KIT"
 			(at 318.77 250.19 0)
 			(effects
 				(font
@@ -8519,7 +8519,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:MOSFET_KIT"
+		(property "Footprint" "mosfet:MOSFET_KIT"
 			(at 323.85 198.12 0)
 			(effects
 				(font
@@ -9476,7 +9476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
+		(property "Footprint" ""
 			(at 326.39 378.46 0)
 			(effects
 				(font
@@ -9553,7 +9553,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:MOSFET_KIT"
+		(property "Footprint" "mosfet:MOSFET_KIT"
 			(at 234.95 247.65 0)
 			(effects
 				(font
@@ -9636,7 +9636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:MOSFET_KIT"
+		(property "Footprint" "mosfet:MOSFET_KIT"
 			(at 234.95 198.12 0)
 			(effects
 				(font
@@ -9719,7 +9719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:MOSFET_KIT"
+		(property "Footprint" "mosfet:MOSFET_KIT"
 			(at 151.13 245.11 0)
 			(effects
 				(font
@@ -10016,7 +10016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:MOSFET_KIT"
+		(property "Footprint" "mosfet:MOSFET_KIT"
 			(at 138.43 194.31 0)
 			(effects
 				(font
@@ -10912,7 +10912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 175.26 340.36 0)
 			(effects
 				(font

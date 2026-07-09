@@ -1,4 +1,4 @@
-# title: C.L.A.S
+<img width="875" height="482" alt="Screenshot 2026-07-08 103329" src="https://github.com/user-attachments/assets/a84a260b-9976-40da-8aa7-c02951f07cf5" /># title: C.L.A.S
 
 author: Youssef Ayman Mohamed
 
@@ -53,3 +53,16 @@ Finaly,i worked description of clas.then making worflow for each parts in system
 ### Recording (4.4 hours) :
 https://lapse.hackclub.com/timelapse/867AXAJ3zznD
 https://lapse.hackclub.com/timelapse/h2mKk20hOjvF
+
+## Entry 3
+created at:2026-7-8
+
+### Content 
+During this session, I worked on PCB
+Firstly,i add edge cuts forming pcb shape,then i organized componets inside it,cosider the wires.then i started routed pcb,routing mosfets and pin headers with esp32 s3.Then,i create copper area on the top for VCC 5 v and on the back another one for GND.then cehecking drc,after that i added function for each part above it,and sign my name on pcb.
+<img width="905" height="383" alt="Screenshot 2026-07-08 103335" src="https://github.com/user-attachments/assets/2d35ef97-2347-4a46-9d3a-5b9a7ad2ae29" />
+<img width="875" height="482" alt="Screenshot 2026-07-08 103329" src="https://github.com/user-attachments/assets/501b7398-41b6-41fd-a129-bfc15a161a8a" />
+<img width="1025" height="525" alt="Screenshot 2026-07-08 103359" src="https://github.com/user-attachments/assets/4f5353df-2938-4cf6-b6a3-ebc9f216e508" />
+
+### Recording (29 min) :
+https://lapse.hackclub.com/timelapse/yJk0d57BnSbP

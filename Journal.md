@@ -1,4 +1,4 @@
-<img width="875" height="482" alt="Screenshot 2026-07-08 103329" src="https://github.com/user-attachments/assets/a84a260b-9976-40da-8aa7-c02951f07cf5" /># title: C.L.A.S
+# title: C.L.A.S
 
 author: Youssef Ayman Mohamed
 

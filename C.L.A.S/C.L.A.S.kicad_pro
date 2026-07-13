@@ -490,7 +490,7 @@
       "plot": "D:/C.L.A.S/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../Production/C.L.A.S.step",
+      "step": "../C.L.A.S.step",
       "svg": "",
       "vrml": ""
     },

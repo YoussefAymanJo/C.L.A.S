@@ -2655,6 +2655,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mosfet_Controller_6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOSFET_KIT"
+				(at -0.508 -1.778 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:MOSFET_KIT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mosfet_Controller_6_0_1"
+				(rectangle
+					(start -17.78 6.84)
+					(end 16.2199 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Mosfet_Controller_6_1_1"
+				(pin input line
+					(at -13.97 8.89 270)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -12.7 90)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 8.89 270)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -12.7 90)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "PMW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Motor:Fan"
 			(pin_names
 				(offset 0)
@@ -6028,6 +6200,28 @@
 		)
 		(uuid "fd250122-b070-415b-a8d6-bfead42c4f51")
 	)
+	(global_label "GND_grow"
+		(shape input)
+		(at 63.5 241.3 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01300ff8-179e-40b8-abfb-f9ade66ada8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 229.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vccfan"
 		(shape input)
 		(at 389.89 273.05 90)
@@ -6968,6 +7162,28 @@
 			)
 		)
 	)
+	(global_label "VCC_grow"
+		(shape input)
+		(at 538.48 284.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "858323c0-0c7f-4398-909c-9aa7a9e825e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 538.48 296.4761 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC_3v"
 		(shape input)
 		(at 326.39 360.68 90)
@@ -7192,6 +7408,28 @@
 			)
 		)
 	)
+	(global_label "GND_grow"
+		(shape input)
+		(at 551.18 284.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b96839ef-8347-4a4c-a000-6d2d13d8d2d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 551.18 296.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_Power"
 		(shape input)
 		(at 179.07 368.3 0)
@@ -7278,6 +7516,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "grow"
+		(shape input)
+		(at 91.44 318.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0859ea5-4245-4c8b-922f-f9ba5bad369a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.8399 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7638,6 +7898,28 @@
 			)
 		)
 	)
+	(global_label "VCC_grow"
+		(shape input)
+		(at 59.69 241.3 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4c64f36-2b95-4ccc-be3e-4b7b8208584d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 229.3039 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Heatlamp"
 		(shape input)
 		(at 45.72 344.17 180)
@@ -7724,6 +8006,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "grow"
+		(shape input)
+		(at 91.44 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9bcdbc6-5430-48d9-8b40-e990c160cdac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.8399 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7945,72 +8249,6 @@
 			(project ""
 				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
 					(reference "GrowLight1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 538.48 284.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06b95352-d4ab-45b8-8363-baff31cf8ddc")
-		(property "Reference" "#PWR0128"
-			(at 538.48 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 538.48 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 538.48 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 538.48 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 538.48 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab06cb82-1c30-44be-83de-acbf03f0cb7a")
-		)
-		(instances
-			(project ""
-				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
-					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -8343,6 +8581,72 @@
 			(project ""
 				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2adff2b2-3e26-49fd-bbe0-45d71bda5faa")
+		(property "Reference" "#PWR08"
+			(at 63.5 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fcfc03e-76d6-4f65-b8ac-5b1c55869707")
+		)
+		(instances
+			(project "C.L.A.S"
+				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10293,6 +10597,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 59.69 262.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81ea3008-1b37-4897-bf72-4030a9afed7d")
+		(property "Reference" "#PWR07"
+			(at 59.69 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 59.69 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63b27400-29cf-4072-8be5-f32831d03b28")
+		)
+		(instances
+			(project "C.L.A.S"
+				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Mosfet_Controller_2")
 		(lib_id "New_Library:Mosfet_Controller")
 		(at 234.95 198.12 0)
@@ -11020,6 +11390,89 @@
 		)
 	)
 	(symbol
+		(lib_name "Mosfet_Controller_6")
+		(lib_id "New_Library:Mosfet_Controller")
+		(at 73.66 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf8d529f-d9b6-44f6-a7cb-414cab160186")
+		(property "Reference" "Waterpump2"
+			(at 54.61 250.5799 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 54.61 254.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mosfet:MOSFET_KIT"
+			(at 73.66 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "089d92bd-78a7-4ac0-9072-a34297924e64")
+		)
+		(pin "2"
+			(uuid "59efd90c-52e3-49cb-88a9-07f862c3b19e")
+		)
+		(pin ""
+			(uuid "fcaecf5a-c669-44b1-9cfe-3503417b0e1b")
+		)
+		(pin ""
+			(uuid "2e32dbe3-25b7-4407-9083-3e06ece312a6")
+		)
+		(pin ""
+			(uuid "e192fe46-2761-42a8-9653-09e7a8f4a3f0")
+		)
+		(pin "1"
+			(uuid "8ea716d7-65f1-4272-a150-b48dfbd7b435")
+		)
+		(instances
+			(project "C.L.A.S"
+				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
+					(reference "Waterpump2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:PeltierElement")
 		(at 516.89 331.47 0)
 		(unit 1)
@@ -11153,72 +11606,6 @@
 			(project ""
 				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 551.18 284.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8fbee93-98d8-49fd-a77e-5170d379b290")
-		(property "Reference" "#PWR0125"
-			(at 551.18 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 551.18 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 551.18 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 551.18 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 551.18 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd74daf9-2564-4004-bbef-367c6974769c")
-		)
-		(instances
-			(project ""
-				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
-					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -11769,6 +12156,72 @@
 			(project ""
 				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe3c2bd-c8c7-4fc5-bd2a-a0d59923a550")
+		(property "Reference" "#PWR09"
+			(at 91.44 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87ce9643-9a00-4bd5-8679-8be95ff350d5")
+		)
+		(instances
+			(project "C.L.A.S"
+				(path "/3794858c-4b97-421f-98e2-888d5436b0dd"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

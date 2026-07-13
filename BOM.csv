@@ -1,0 +1,28 @@
+Item,Descritption,Qt,link,price
+DHT22,Measure temperature & humidty,1,https://makerselectronics.com/product/dht22-digital-temperature-and-humidi/,3
+LDR ,Measure ligth intensity,1,https://www.ram-e-shop.com/ar/shop/kit-ky018-ldr-ldr-module-4pin-photoresistor-sku-ky018-7075?category=180,0.7
+Soil Moisture,Measures Amount of water in soil,1,https://www.ram-e-shop.com/ar/shop/sen-soil-a-soil-moisture-sensor-sku-soil-a-7058,1
+Water level sensor,Measures water level,1,https://www.ram-e-shop.com/ar/shop/kit-c43-water-sensor-c43-water-level-sensor-liquid-water-droplet-depth-detection-7157,0.5
+Mosfet kit 400w,Controlls on/off actucators,7,https://www.ebay.com/itm/147073435080,24
+Power supply 20a,Provide power for system,1,https://microohm-eg.com/power-supply-smps-12v-20a-with-fan/,6.42
+step down,reduce power to 5v,1,https://www.ram-e-shop.com/ar/shop/dc-dc-101-dc-dc-step-down-converter-adjustable-5a-xl4015-5v-32vdc-to-0-8v-30vdc-sku-dc101-bwrd-dyr-khfd-jhd-fwlt-7258,2
+Peltier ,cool down greenhouse,2,https://www.ram-e-shop.com/ar/shop/sf10080-thermoelectric-cooler-40x40mm-peltier-6726,7.02
+Peltier Kit,Sperate peltier air throw vacuum,2,https://microohm-eg.com/thermoelectric-peltier-refrigeration-cooling-system-80x80x80mm-for-tec1-12706/,13.64
+Fan 12 v  50*50,cool down petlier heat side,2,https://www.ram-e-shop.com/ar/shop/fan-12vdc-5010-cooling-fan-12vdc-size-50x50x10mm-mrwh-tbryd-12-fwlt-6636,1.81
+Fan 12 v 120*120,reduce Humidty,1,https://makerselectronics.com/product/dc-fan-12v-0-35a-120x120x38mm/,3.21
+Humidifier,Increase Humidty,1,https://lampatronics.com/product/usb-mini-humidifier-mist-maker-and-driver-circuit-board-fogger-atomization-full-kit,2.41
+Water pump,Water plant,1,https://mostelectronic.com/shop/air-fluid-control/ultra-quiet-brushless-dc-water-pump-12vdc-3-6w-240l-h-ip68/,5.52
+Water Pump - Hose 6x8mm - PVC Clear Vinyl Tubing 1 Meter ????? ???? ??? 1?,Delivel water to soil,2,https://www.ram-e-shop.com/ar/shop/dc-pump-hose-6x8-1m-water-pump-hose-6x8mm-pvc-clear-vinyl-tubing-1-meter-khrtwm-mdkh-twl-1m-7954,1.4
+Heating Lamp,Increase heat in greenhouse,1,https://www.amazon.eg/-/en/Incandescent-Infrared-R125-Spotlight-Bathroom/dp/B0D1W4ZKD4,10.41
+Grow LIght,Alternative of sunglight absence,1,https://www.amazon.eg/-/en/Waterproof-Spectrum-Hydroponics-Greenhouse-Gardening/dp/B0DPT5ZH7L?ref_=Oct_d_orecs_d_21870021031_3,13.84
+Esp S3,MCU of circuit,1,https://store.fut-electronics.com/products/esp32-s3-devkitc-1,11.03
+Pin headers,For PCB,1,https://www.ram-e-shop.com/ar/shop/ph10-1x40-male-ph10-pin-header-male-1x40-straight-2-54mm-long-leg-17mm-5832?category=52,0.08
+M3 5mm,Hold PCb,6,https://microohm-eg.com/screw-m3-3mm-x-5mm-without-nut/,0.08
+Screw terminal,5v in for PCB,1,https://www.ram-e-shop.com/ar/shop/r-5-roseta-2pin-2-pin-pcb-screw-terminal-block-pitch-5mm-14-1mm-height-r-5-6323?page=2&category=57,0.08
+Tray,Hold soil,1,https://plantifyshop.com/en/product/microgreens-germination-tray/,1.64
+Jumpers, Male to female,1,https://www.ram-e-shop.com/ar/shop/ph60-mf-20cm-ph60-20cm-male-to-female-40-jumper-wires-set-7066,0.7
+Panel Mount AC Power Male Socket,Control power in ,1,https://makerselectronics.com/product/panel-mount-ac-power-male-socket-2/,0.7
+Copper wire,Wire ,4,https://www.amazon.eg/-/en/Electrical-Power-Cable-Copper-Speaker/dp/B0C4BTR7CG/ref=asc_df_B0C4BTR7CG?mcid=264cb02448083584b3b0e2e9183d575f&hvadid=725245270931&hvpos=&hvnetw=g&hvrand=10417834455933238630&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9214829&hvtargid=pla-2236741121880&psc=1&hvocijid=10417834455933238630-B0C4BTR7CG-&hvexpln=0&language=en_AE,4.25
+Nails,Nails,none,none,1
+PCB,PCb printing,1,None,50
+Wood,Wood,none,none,20.06

@@ -1,4 +1,4 @@
-# title: C.L.A.S
+<img width="696" height="475" alt="image" src="https://github.com/user-attachments/assets/a3545084-3a37-40f4-af3c-bdb3ee09819e" /># title: C.L.A.S
 
 author: Youssef Ayman Mohamed
 
@@ -26,7 +26,7 @@ created at:2026-7-5
 
 ### Content 
 During this session, I worked mainly on the schematic.
-Firstly, some parts in doennot availabe their symbol in KiCad or even on SnapMagic. So I watched a tutorial on creating symbols in KiCad.
+Firstly, some parts do not have their symbol in KiCad or even on SnapMagic. So I watched a tutorial on creating symbols in KiCad.
 After that, I started making a soil moisture sensor symbol and found out its pinout. I faced some struggles as it was  my first one.
 Then,ldr sensor, after searching about its pinout.
 Then, I made power parts, which are a buck converter and a power supply, in the same way.
@@ -71,6 +71,25 @@ https://lapse.hackclub.com/timelapse/yJk0d57BnSbP
 created at:2026-7-9
 
 ### Content 
+During this session,i worked mainly on pcb enclosure.
+firstly,i uploaded pcb  3d model to fusion,then sketck it dimensions,then worked on enclosure sketch ,adding offset and taking parts for m3 screws,
+After that,i added mouniting holes in schematic,then assign it footprint.
+then,i searched for componetes 3d models on grapcad , power supply,buck ,sensors and actuators.
+<img width="1072" height="550" alt="Screenshot 2026-07-14 225038" src="https://github.com/user-attachments/assets/0c67396a-7aa0-4702-a1f4-560c168c2d2e" />
+
+after that i added water level sensor,i searched for its pinout,then making it symbol in kicad, then,update schematic and adding 3 pin headers for sensors,after that update pcb and reroute new headers.then upload pcb model to fusion,but mosfets 3d were absent.So i added them manually.
+Then,i assembles pcb & power supply and buck and align them ,then project them to new sketch.then extrude enclosure  by heigth of power supply.then extrude base .after that, sketch mouting holes for m3 screws 5mm.then extrude it.
+<img width="633" height="560" alt="Screenshot 2026-07-14 225407" src="https://github.com/user-attachments/assets/daf28956-a52f-4faf-a0ff-16b8a43890d0" />
+<img width="910" height="630" alt="Screenshot 2026-07-14 225101" src="https://github.com/user-attachments/assets/46b6f59c-c6a1-4d1f-b2cb-e7c4b5b88a5f" />
+<img width="589" height="409" alt="Screenshot 2026-07-14 225120" src="https://github.com/user-attachments/assets/9ea7cb44-9dd1-48a9-804b-04d849c420e7" />
+
+Secondly,I assembled enclosure with parts to check openiin places according to mosfet and power supply.then started sketch  slots on the back and left of enclosure.then cutted it.After that,i searched for ac panel plug 3d model,then uploaded it to enclosure beside power supply.then extrude openinig for it.
+After that,i worked on pcb cover,sketched it and extrude it.then i added project text on the top.And tried to add lettuce image but doens't work.then i added it to assembly,then adding m3 5mm srews for pcb and buck and used surface anaylsis for top and right.
+
+Finally, I rendered the enclosure with white to reflect sunlight without increase pcb temperature.
+<img width="955" height="543" alt="Screenshot 2026-07-14 225220" src="https://github.com/user-attachments/assets/4e471c23-0197-470d-8caf-0678a6e3597a" />
+<img width="1206" height="695" alt="Screenshot 2026-07-14 225231" src="https://github.com/user-attachments/assets/404a6f39-6d51-4fdc-89eb-328352e63a6a" />
+
 
 
 ### Recording (3 hours & 15 min) :

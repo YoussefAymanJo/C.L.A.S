@@ -1,7 +1,8 @@
 # C.L.A.S
 
 ## Description
-Is an abbreviation for a closed-loop feedback system.
+Is an abbreviation for a closed-loop feedback system.A system that monitors and acts based on lettuce & pepper plant conditions in 6th October city,Egypt.
+In  monitors temperature & Humidty & soil moiture & light intensity.then,it responds in case in change in plants optimal range conditonns.As,it used actuctors,peltiers ,humidifier,heating lamp ,grow light , water pump and fan to out excessive humidty.It powered by esp s3.and cloud base storage of firebase,show data at moment on web app.
 ## Why it was built
 This is grade 11 Capstone Project in my school,so i must make it.It is about the challenge Egypt faces in integrating IoT closed systems with farming.My project solve this by providing high nutrition needed crops in my area all the year,lettuce&pepper controlled  by closed feedback system.that control temperature & humidty & soil moisture & light parameters.
 ## How to use it / Build it

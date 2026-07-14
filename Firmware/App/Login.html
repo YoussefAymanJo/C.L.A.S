@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        :root {
+            --base-clr: #11121a;
+            --line-clr: #42434a;
+            --box-clr: #222533;
+            --text-clr: #e6e6ef;
+            --accent-clr: #5e63ff;
+            --secondry-text-clr: #beb3c1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: var(--base-clr);
+            color: var(--text-clr);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-box {
+            width: 300px;
+            padding: 2em;
+            border: 2 px solid var(--line-clr);
+            border-radius: 0.75em;
+            background-color: var(--box-clr);
+        }
+
+        .name h1 {
+            text-align: center;
+            margin-bottom: 1em;
+            color: rgb(251, 254, 254);
+        }
+
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: .5em;
+            margin-bottom: 1em;
+        }
+
+        .field label {
+            font-size: 1em;
+            color: var(--secondry-text-clr);
+        }
+
+        .field input {
+            background-color: var(--base-clr);
+            border: 1px solid var(--line-clr);
+            border-radius: 1em;
+            padding: .75em 1em;
+            color: var(--text-clr);
+            font-size: 1em;
+
+        }
+        .button-link {
+            display: block;
+            text-align: center;
+            background-color: var(--accent-clr);
+            color: #fff;
+            text-decoration: none;
+            padding: .75em;
+            border-radius: .5em;
+            font-weight: 600;
+            margin-top: .5em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-box">
+        <div class="name">
+            <h1>C.l.A.S</h1>
+        </div>
+        <div class="field">
+            <label>Username</label>
+            <input type="text" id="user" />
+        </div>
+        <div class="field">
+            <label>Password</label>
+            <input type="password" id="Pass" placeholder="****" />
+        </div>
+        <a href="index.html" class = "button-link">login </a>
+    </div>
+</body>
+
+</html>

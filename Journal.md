@@ -154,3 +154,41 @@ finally,in third case ,i get actuctors status from firebase ,then print it in se
 
 ### time (2 h & 5 min) :
 
+## Entry 8
+created at:2026-7-14
+### Content 
+During this session,i worked on dashboard.firstly,i want to make sidebar for navigation,so i watched tutorial how to make one,then i made it ,it consist of Home,about us and logout.i made main nav contianer then first div for projec name and logo on top  and icon form google icons,then unodered list for navigation elements,each one consist of link for another page and icon and span for title and reconized active page with active name class.and at end div for logout.
+<img width="1900" height="840" alt="Screenshot 2026-07-15 015729" src="https://github.com/user-attachments/assets/72af6f98-04fd-4020-8e34-090e1f3ff5c5" />
+
+about css for nav bar,sidebar box properties from size ,height ,bg colour and align ,then active highlight ,then logos and text css and hover animation bg colour.then title css from font family & size & colour and disply,finally,logout css.
+<img width="1498" height="575" alt="Screenshot 2026-07-15 015531" src="https://github.com/user-attachments/assets/b4edf72c-d3de-4b21-8069-42fcc59637ff" />
+<img width="1525" height="364" alt="Screenshot 2026-07-15 015535" src="https://github.com/user-attachments/assets/0200e501-3aa0-4aab-9d54-2c847e0787e9" />
+<img width="1565" height="666" alt="Screenshot 2026-07-15 015543" src="https://github.com/user-attachments/assets/2c934485-cfe3-46e5-9494-f023ce837d07" />
+
+After that,i made simple dasboard ui without js,i will add it when buidlnig and testing clas.firstly,i make grid of boxes show guage contianer of sensors readings and same grid of boxes for actuactors on/off.then css for dashboard,firstly i made css for boxes form size and colours and align items.after that,i make guage css,then css for button in actuactors boxes,later i will add js with firebase for them but i need prototype and recieve real readings from sesnors.
+<img width="938" height="599" alt="Screenshot 2026-07-15 015511" src="https://github.com/user-attachments/assets/c5ce2d46-1f62-4d76-99ab-b20e234e5b31" />
+<img width="1443" height="643" alt="Screenshot 2026-07-15 015603" src="https://github.com/user-attachments/assets/815b91ec-8dc6-416f-957b-bd7124f57a6f" />
+<img width="1438" height="564" alt="Screenshot 2026-07-15 015619" src="https://github.com/user-attachments/assets/e2f8cafd-b186-4ddc-9439-71473e8e403c" />
+
+<img width="1904" height="906" alt="Screenshot 2026-07-15 015453" src="https://github.com/user-attachments/assets/71bedf82-8cfb-4943-a72c-745598f529d6" />
+<img width="1904" height="588" alt="Screenshot 2026-07-15 015502" src="https://github.com/user-attachments/assets/b1192a3e-a43f-4026-b21e-9c7ac3795351" />
+
+### time (3 h & 2 min) :
+
+## Entry 9
+created at:2026-7-14
+### Content 
+During this session, I worked on the login and about pages.
+firstly,in about us page,i coped navbar code form home page and edited it to be active on about us.i want to show my project scientific poster in this page for school evaulators,so i used iframe element in html and uploaded pdf.first,edit on main contianer properties ,alig element at center,adding padding from top and bottom ,
+then i added css for h1 element to be in center with specific colour from my plattet,with weight 700 and size 2 rem.then align ifram in center with 100 width and height and border raduis 0.75em.
+<img width="648" height="641" alt="Screenshot 2026-07-15 011038" src="https://github.com/user-attachments/assets/86702d55-c066-48f4-9d02-55a8496bd1d3" />
+<img width="648" height="641" alt="Screenshot 2026-07-15 011038" src="https://github.com/user-attachments/assets/267c7b91-49d6-4b61-bab0-577e0f25ea85" />
+<img width="648" height="641" alt="Screenshot 2026-07-15 011038" src="https://github.com/user-attachments/assets/7077ec1a-2be9-4f67-babc-28428e33301e" />
+
+Secondly,login Page:i watched some tutorial to make simple login page,i will add later js in testing prototoype,but now just ui.
+i made first main div for lonig box and added div for title and 2 field divs for username and password.then a href link for index page.
+then i started css in html , i use same colour variable form index.then  first make body properites,bg colour and elements aligment in center.then i made login box,with 300px width and border 2px ,bg colour.after that, align h1 name in center , then  divs fields for username and password  css.finaly,i tried to make a href look like button.
+<img width="1896" height="987" alt="Screenshot 2026-07-15 012334" src="https://github.com/user-attachments/assets/0f34e773-4fb4-4f79-b777-95e217f522ef" />
+<img width="860" height="624" alt="Screenshot 2026-07-15 012304" src="https://github.com/user-attachments/assets/90b66a32-8d8c-4668-b306-b70026b3df36" />
+<img width="706" height="463" alt="Screenshot 2026-07-15 012245" src="https://github.com/user-attachments/assets/6bf952cd-337c-4b3c-8908-7ac91a9e448f" />
+### time (53 min) :

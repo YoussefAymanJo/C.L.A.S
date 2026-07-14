@@ -114,3 +114,23 @@ then,i renderd greenhouse assembly.
 
 ### Recording (2 h & 44 min) :
 https://lapse.hackclub.com/timelapse/jrJTmdQnPTF2
+
+## Entry 6
+created at:2026-7-12
+### Content 
+Firstly,grow light power control mosfer was missiing,so i added it to schematic and connect it to 5v,then i uploaded pcb and rerouted new mosfet.then export new 3d model and also export gerbers folder.
+<img width="1062" height="499" alt="Screenshot 2026-07-15 000205" src="https://github.com/user-attachments/assets/0062eb11-a32f-4649-a084-c09c64a367a6" />
+<img width="1156" height="829" alt="Screenshot 2026-07-15 000242" src="https://github.com/user-attachments/assets/cb804ea6-a55d-468e-b2a7-cbf83717567b" />
+After that,i added mosfets 3d model to pcb, then upated pcb in it enclosure,and realign it with screws using surface analysis.then update greenhouse assembly.
+then,i seacrhed for grow light strip 3d model,and trying to add it on sides cover,but i will not cover all crops.so i put them on top wood A roof.adjusting them to be connected.then i rendered the layers of polyehtanel to make it more clear by glass appeareacne.
+<img width="1265" height="746" alt="Screenshot 2026-07-15 000154" src="https://github.com/user-attachments/assets/9aa68a06-e537-4de5-b352-21f223aade11" />
+Secondly,i worked on BOM file,adding item name and link in shop and their price in usd.
+<img width="874" height="743" alt="Screenshot 2026-07-15 000110" src="https://github.com/user-attachments/assets/63ad1ac2-4fc0-4b41-ad17-3a9c246a206b" />
+Finally,i searched for dashboard UI and found some cool UI ,gaining ideas for my dashboard.
+<img width="1062" height="499" alt="Screenshot 2026-07-15 000205" src="https://github.com/user-attachments/assets/311a7e0a-e150-4541-9f95-58519c74f308" />
+
+### Recording (1 h & 47 min) :
+https://lapse.hackclub.com/timelapse/XfLlIYKGBLIV
+
+https://lapse.hackclub.com/timelapse/Oo2w71q-Nlll
+

@@ -1,5 +1,3 @@
-<img width="696" height="475" alt="image" src="https://github.com/user-attachments/assets/a3545084-3a37-40f4-af3c-bdb3ee09819e" /># title: C.L.A.S
-
 author: Youssef Ayman Mohamed
 
  description: Closed feedback greenhouse system for lettuce and pepper plants in Egypt. Controlled by ESP.
@@ -90,8 +88,29 @@ Finally, I rendered the enclosure with white to reflect sunlight without increas
 <img width="955" height="543" alt="Screenshot 2026-07-14 225220" src="https://github.com/user-attachments/assets/4e471c23-0197-470d-8caf-0678a6e3597a" />
 <img width="1206" height="695" alt="Screenshot 2026-07-14 225231" src="https://github.com/user-attachments/assets/404a6f39-6d51-4fdc-89eb-328352e63a6a" />
 
-
-
 ### Recording (3 hours & 15 min) :
 https://lapse.hackclub.com/timelapse/dNaEws2EPQLG
+
 https://lapse.hackclub.com/timelapse/mTek28ENGT2j
+
+## Entry 5
+created at:2026-7-11
+### Content 
+During this session,i worked mainly on greenhouse assembly.
+I started measuring componets dimensions,such as peltier kit and tray.then i started sketch plant tray based on it online dimesions.after that ,i added holes in it and repeated theam accros tray.then extrude it by 4 cm .
+<img width="1114" height="650" alt="Screenshot 2026-07-14 233414" src="https://github.com/user-attachments/assets/5ad3d183-9bcc-474e-a094-5b60cb4ff9c8" />
+Secondly,i was not had any idea to make greenhouse for first time,so i decided to make it from blocks and assemble them together like lego.at first,i make base block,and it should hold pcb enclosure & tray and humidty bottle.after edited its dimesions for them,i uploaded piezo element for humidifier above plastic bottle.t
+After that,i searched for fridge box for watering water align witg tray.founding one on amazon.then i started extrude water box.and assemble it with below tray.
+then,i cut slot in the middle for water level sensor.and added it.then adding soil moisture sensor in the tray as soil in.
+<img width="1010" height="730" alt="Screenshot 2026-07-14 233705" src="https://github.com/user-attachments/assets/8f95ee19-829f-4488-b262-9a3cb23eb42c" />
+thirdly,i make second block.and added it for greenhouse,then uploaded dc fan responsible for reduce humidty.then cut poloygn in block for fan.and added dht 22 & ldr sensors,and cut hole for it mounting holes so the sensor will be attached by srews.
+After that,i made the left and right block,then extrude opening for 2 peltiers kit on each one.
+<img width="839" height="688" alt="Screenshot 2026-07-14 233739" src="https://github.com/user-attachments/assets/a203238c-418e-4538-8ef8-40d60d6ceca7" />
+Finally,i searched for greenhouse roof types.and fount A frame is suitable  egypt coditions and my challenge.then, four wood plate will hold polyethanael layer that cover greenhouse,and assemled them adjusting angles to fit on each other.
+after that,i rendered greenhouse,tray & blocks.then i found way to add poly appearce by adding more lego blocks,then make them glass appeareance.
+so i made roof on 2 blocks & left block,then making triangle to cover parts between roof and side blocks.
+then,i renderd greenhouse assembly.
+<img width="770" height="737" alt="Screenshot 2026-07-14 233828" src="https://github.com/user-attachments/assets/f318d3d9-9ca1-4d6e-8e0b-f51b7c0c117b" />
+
+### Recording (2 h & 44 min) :
+https://lapse.hackclub.com/timelapse/jrJTmdQnPTF2

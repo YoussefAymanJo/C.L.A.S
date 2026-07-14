@@ -66,3 +66,13 @@ Firstly,i add edge cuts forming pcb shape,then i organized componets inside it,c
 
 ### Recording (29 min) :
 https://lapse.hackclub.com/timelapse/yJk0d57BnSbP
+
+## Entry 4
+created at:2026-7-9
+
+### Content 
+
+
+### Recording (3 hours & 15 min) :
+https://lapse.hackclub.com/timelapse/dNaEws2EPQLG
+https://lapse.hackclub.com/timelapse/mTek28ENGT2j

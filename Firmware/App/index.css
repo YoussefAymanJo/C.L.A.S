@@ -118,3 +118,102 @@ body {
     flex-shrink: 0;
     fill: var(--text-clr);
 }
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2;
+    color: var(--secondry-text-clr);
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--line-clr);
+    padding-bottom: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.sensors_table,
+.actuators_table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+.sensor_reading, .actuators_table > div {
+    background-color: var(--hover-clr);
+    border: 1.5px  solid var(--line-clr);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sensorname,
+.actucatorbox {
+    font-size: 1rem;
+    color: var(--secondry-text-clr);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.gauge-container {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: conic-gradient(from 225deg,
+            var(--accent-clr) 0%,
+            var(--accent-clr) calc(var(--value) * 1% * 0.75),
+            var(--line-clr) calc(var(--value) * 1% * 0.75),
+            var(--line-clr) 75%,
+            transparent 75%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inside{
+    width: 104px;
+    height: 104px;
+    background-color: var(--hover-clr);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.actuators_table > div {
+    justify-content: space-between;
+    gap : 20px;
+}
+.button_act{
+    background-color: var(--base-clr);
+    color : var(--secondry-text-clr);
+    border : 1px  solid var (--line-clr);
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    font-size : 1em;
+    font-weight : bold , italic;
+    cursor : pointer ; 
+    transition: all 0.3s ease;
+}
+
+.button_act:hover {
+    border-color: var(--accent-clr);
+}
+
+.button_act.active-btn {
+    background-color: var(--accent-clr);
+    color: var(--text-clr);
+    border-color: var(--accent-clr);
+}

@@ -51,17 +51,98 @@
 
         </ul>
         <div class="Logout">
-            <a href = "Login.html" >
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
-                <path
-                    d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z" />
-            </svg>
-            <span>Logout</span>
+            <a href="Login.html">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#e3e3e3">
+                    <path
+                        d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z" />
+                </svg>
+                <span>Logout</span>
             </a>
         </div>
     </nav>
     <main>
-
+        <h1>Dashoard</h1>
+        <section class="sensors">
+            <h2>Sensors Reading</h2>
+            <div class="sensors_table">
+                <div class=sensor_reading id='temp'>
+                    <div class="sensorname">Temperature</div>
+                    <div class="gauge-container" style="--value: 0;">
+                        <div class="inside">
+                            <span class="gauge-value">21.9°C</span>
+                            <span class="gauge-status">Celsuis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=sensor_reading id=" humid">
+                    <div class="sensorname">Humidty</div>
+                    <div class="gauge-container" style="--value: 0;">
+                        <div class="inside">
+                            <span class="gauge-value">75.0%</span>
+                            <span class="gauge-status">IN RANGE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=sensor_reading id="light">
+                    <div class="sensorname">Light</div>
+                    <div class="gauge-container" style="--value: 0;">
+                        <div class="inside">
+                            <span class="gauge-value">55.0%</span>
+                            <span class="gauge-status">IN RANGE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=sensor_reading id='soil'>
+                    <div class="sensorname">Soil Moisture</div>
+                    <div class="gauge-container" style="--value: 0;">
+                        <div class="inside">
+                            <span class="gauge-value">55.0%</span>
+                            <span class="gauge-status">IN RANGE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=sensor_reading id="water">
+                    <div class="sensorname">Water Level</div>
+                    <div class="gauge-container" style="--value: 0;">
+                        <div class="inside">
+                            <span class="gauge-value">55.0%</span>
+                            <span class="gauge-status">IN RANGE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="actucators">
+            <h2>Actuators</h2>
+            <div class = "actuators_table" >
+                <div id = "peltier1">
+                    <div class="actucatorbox">Peltier 1</div>
+                    <button class = 'button_act' onclick= "toggleActuator('peltier1')">OFF</button>
+                </div>
+                <div id = "peltier2">
+                    <div class="actucatorbox">Peltier 2</div>
+                    <button class = 'button_act' onclick= "toggleActuator('peltier2')">OFF</button>
+                </div>
+                <div id = "Fan">
+                    <div class="actucatorbox">Fan</div>
+                    <button class = 'button_act' onclick= "toggleActuator('Fan')">OFF</button>
+                </div>
+                <div id = "humid">
+                    <div class="actucatorbox">Humidifier</div>
+                    <button class = 'button_act' onclick= "toggleActuator('Humidifier')">OFF</button>
+                </div><div id = "Grow">
+                    <div class="actucatorbox">GrowLight</div>
+                    <button class = 'button_act' onclick= "toggleActuator('light')">OFF</button>
+                </div><div id = "lamp">
+                    <div class="actucatorbox">Heat Lamp</div>
+                    <button class = 'button_act' onclick= "toggleActuator('Heat')">OFF</button>
+                </div><div id = "Water">
+                    <div class="actucatorbox">Water Pump</div>
+                    <button class = 'button_act' onclick= "toggleActuator('Pump')">OFF</button>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 

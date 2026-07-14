@@ -133,4 +133,24 @@ Finally,i searched for dashboard UI and found some cool UI ,gaining ideas for my
 https://lapse.hackclub.com/timelapse/XfLlIYKGBLIV
 
 https://lapse.hackclub.com/timelapse/Oo2w71q-Nlll
+## Entry 7
+created at:2026-7-12
+### Content 
+During this session I worked mainly on Esp code.
+firstly,i imported dht22 sensor library.then defined pin for sensors dht22 & ldr & soil moiture and water level.after that i defined pins for actucators power controllers.
+then,i create struct for lettuce and pepper conditions ranges based on my 4 paramters.then,define pins as input and read sensors readings,convert water level readings to usable value by equation.
+<img width="1002" height="590" alt="Screenshot 2026-07-15 005658" src="https://github.com/user-attachments/assets/c24276fe-b4ce-40b8-b1a3-7a2f9186f929" />
+after that,i created 3 if cases ,first one for lettuce coditions ,2 for pepper and last one for manual operating by user for testing or overide.i sperated cases for each parameter into 3 ,first on ,if it below the range , above range and between range.for instance,if temp below range heat lamp on and otherwise peltier on ,if on range all off.
+Then,i imported firebase client libray and wifi library for esp,then define wifi & password and firebase url and sercet code.
+then,added wifi connection server in setup function,and loop until it connected in while loop.
+then,i call planttype from firebase and store it,then it will determine case 0 for lettuce,1 pepper and left for manual.in each case,i define bool variable 0 for  on and 1 for off and change them  based on case.
+<img width="1190" height="845" alt="Screenshot 2026-07-15 005654" src="https://github.com/user-attachments/assets/428607bc-1f7e-4c56-a474-2fbbf8044c47" />
+<img width="989" height="733" alt="Screenshot 2026-07-15 005635" src="https://github.com/user-attachments/assets/02821a35-351e-4f7b-8d5e-6a0917ff506a" />
+<img width="1043" height="794" alt="Screenshot 2026-07-15 005627" src="https://github.com/user-attachments/assets/7ffe3393-6491-4382-bae7-514c5652a16b" />
+
+finally,in third case ,i get actuctors status from firebase ,then print it in serial monitor.then upated firebase with sensor readings every 30sec and actuctors status.
+<img width="837" height="510" alt="Screenshot 2026-07-15 005548" src="https://github.com/user-attachments/assets/e1dd76c9-edaf-4efb-bc6e-a5078d1dcc4d" />
+<img width="963" height="648" alt="Screenshot 2026-07-15 005541" src="https://github.com/user-attachments/assets/02db21f5-51e7-4a00-ace4-75c37dd5e154" />
+
+### time (2 h & 5 min) :
 
